@@ -134,7 +134,6 @@ public class Main extends Application {
             }
         }
 
-        /* Handle a mouse click event */
         private void handleMouseClick() {
             // If cell is empty and game is not over
             if (token == ' ' && whoseTurn != ' ') {
@@ -159,10 +158,7 @@ public class Main extends Application {
         }
     }
 
-    /**
-     * The main method is only needed for the IDE with limited
-     * JavaFX support. Not needed for running from the command line.
-     */
+   
     public static void main(String[] args) {
         launch(args);
     }
